@@ -192,6 +192,7 @@
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/openeclair" name="openeclair2/vendor_openeclair" remote="ctso" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
   <project path="cts" name="platform/cts" />
