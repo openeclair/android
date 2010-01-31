@@ -18,8 +18,8 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
-  <project path="development" name="cyanogen/android_development" remote="github" />
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
+  <project path="development" name="openeclair2/android_development" remote="ctso" />
+  <project path="frameworks/base" name="openeclair2/frameworks_base" remote="ctso" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
