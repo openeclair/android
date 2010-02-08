@@ -6,7 +6,7 @@
 
   <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="openeclair/android_build" remote="github">
+  <project path="build" name="openeclair/build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
