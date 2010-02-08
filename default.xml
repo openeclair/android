@@ -19,7 +19,7 @@
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="donut" />
   <project path="development" name="wesgarner/openeclair_development" remote="github" revision="master" />
-  <project path="frameworks/base" name="bcrook/android_frameworks_base" remote="github" revision="openeclair" />
+  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="eclair" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
