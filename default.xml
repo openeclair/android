@@ -19,6 +19,7 @@
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="donut" />
   <project path="development" name="development" remote="openeclair" revision="master" />
+  <project path="development/apps/SpareParts" name="SpareParts" remote="openeclair" revision="eclair" />
   <project path="frameworks/base" name="frameworks_base" remote="openeclair" revision="eclair" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
