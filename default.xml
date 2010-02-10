@@ -2,11 +2,12 @@
 <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
   <remote name="github" fetch="git://github.com/" />
+  <remote name="openeclair" fetch="git@github.com:openeclair/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
 
   <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="openeclair/build" remote="github" revision="master">
+  <project path="build" name="build" remote="openeclair" revision="master">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -17,8 +18,8 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="donut" />
-  <project path="development" name="openeclair/development" remote="github" revision="master" />
-  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="eclair" />
+  <project path="development" name="development" remote="openeclair" revision="master" />
+  <project path="frameworks/base" name="frameworks_base" remote="openeclair" revision="eclair" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -33,7 +34,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
+  <project path="system/core" name="system_core" remote="openeclair" revision="master" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -187,7 +188,7 @@
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
-  <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="master" />
+  <project path="vendor/openeclair" name="vendor" remote="openeclair" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
   <project path="cts" name="platform/cts" />
