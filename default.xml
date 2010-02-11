@@ -4,7 +4,7 @@
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
 
-  <default revision="eclair" remote="korg"/>
+  <default revision="refs/tags/android-2.1_r2" remote="korg"/>
 
   <project path="build" name="openeclair/build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -29,7 +29,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
-  <project path="hardware/msm7k" name="eclair-camera-drivers/platform_hardware_msm7k" remote="gitorious" revision="eclair" />
+  <project path="hardware/msm7k" name="openeclair/hardware_msm7k" remote="github" revision="eclair" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
   <project path="prebuilt" name="platform/prebuilt"/>
 
@@ -148,7 +148,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="fries/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
@@ -169,7 +169,7 @@
   <project path="external/tesseract" name="platform/external/tesseract" />
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
-  <project path="external/webkit" name="platform/external/webkit" revision="master"/>
+  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" revision="eclair" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -180,14 +180,14 @@
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github"/>
+  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
 
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" revision="eclair" />
   <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
