@@ -19,7 +19,7 @@
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
   <project path="development" name="openeclair/development" remote="github" revision="master" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
-  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="eclair" />
+  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="untested" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -34,7 +34,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
+  <project path="system/core" name="openeclair/system_core" remote="github" revision="untested" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
