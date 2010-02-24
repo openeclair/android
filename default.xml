@@ -6,7 +6,7 @@
 
   <default revision="refs/tags/android-2.1_r2" remote="korg"/>
 
-  <project path="build" name="openeclair/build" remote="github" revision="untested">
+  <project path="build" name="openeclair/build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -34,7 +34,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="untested" />
+  <project path="system/core" name="openeclair/system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -72,7 +72,7 @@
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" revision="eclair" />
   <project path="packages/apps/Launcher2" name="ctso/android_packages_apps_Launcher2" remote="github" revision="eclair" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" revision="eclair" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cytown/Phone_eclair" remote="github" revision="master"/>
@@ -158,7 +158,7 @@
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
-  <project path="external/skia" name="platform/external/skia" revision="eclair-release" />
+  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" revision="eclair" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="platform/external/sqlite" />
