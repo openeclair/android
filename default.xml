@@ -6,7 +6,7 @@
 
   <default revision="refs/tags/android-2.1_r2" remote="korg"/>
 
-  <project path="build" name="openeclair/build" remote="github" revision="master">
+  <project path="build" name="openeclair/build" remote="github" revision="untested">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -34,7 +34,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
+  <project path="system/core" name="openeclair/system_core" remote="github" revision="untested" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
