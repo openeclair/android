@@ -20,8 +20,8 @@
   <project path="development" name="openeclair/development" remote="github" revision="untested" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
   <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="untested" />
-  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="refs/tags/android-2.1_r2" />
-  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" revision="refs/tags/android-2.1_r2" />
+  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
   <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" revision="eclair" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
