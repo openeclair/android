@@ -177,7 +177,7 @@
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
+  <project path="vendor/htc/dream-open" name="openeclair/android_vendor_htc_dream-open" remote="github" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
