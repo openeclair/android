@@ -17,9 +17,9 @@
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
-  <project path="development" name="openeclair/development" remote="github" revision="master" />
+  <project path="development" name="openeclair/development" remote="github" revision="eclair" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
-  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="eclair" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -34,7 +34,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
+  <project path="system/core" name="openeclair/system_core" remote="github" revision="eclair" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -91,7 +91,7 @@
   <project path="packages/services/EasService" name="platform/packages/services/EasService" />
   <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
-  <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="master" remote="github"/>
+  <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="eclair" remote="github"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="openeclair/packages_wallpapers_MagicSmoke" revision="eclair" remote="github" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
@@ -190,8 +190,8 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="master" />
-  <project path="vendor/openremix" name="openeclair/vendor_openremix" remote="github" revision="master" />
+  <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="eclair" />
+  <project path="vendor/openremix" name="openeclair/vendor_openremix" remote="github" revision="eclair" />
 
   <project path="cts" name="platform/cts" />
 </manifest>
