@@ -29,7 +29,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
-  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" revision="eclair" />
+  <project path="hardware/msm7k" name="openeclair/android_hardware_msm7k" remote="github" revision="eclair" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
   <project path="prebuilt" name="platform/prebuilt"/>
 
@@ -70,7 +70,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="openeclair/android_packages_apps_Launcher" remote="github" revision="eclair" />
-  <project path="packages/apps/Launcher2" name="openeclair/android_packages_apps_Launcher2" remote="github" revision="master" />
+  <project path="packages/apps/Launcher2" name="openeclair/android_packages_apps_Launcher2" remote="github" revision="eclair" />
   <project path="packages/apps/Mms" name="openeclair/android_packages_apps_Mms" remote="github" revision="master" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
@@ -176,7 +176,7 @@
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
+  <project path="vendor/htc/dream-open" name="openeclair/android_vendor_htc_dream-open" remote="github" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
