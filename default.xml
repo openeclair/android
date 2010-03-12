@@ -93,7 +93,7 @@
   <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="master" remote="github"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="openeclair/packages_wallpapers_MagicSmoke" revision="eclair" remote="github" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+  <project path="packages/wallpapers/MusicVisualization" name="openeclair/packages_wallpapers_MusicVisualization" revision="eclair" remote="github" />
 
   <project path="external/aes" name="platform/external/aes"/>
   <project path="external/apache-http" name="platform/external/apache-http"/>
