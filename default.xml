@@ -17,9 +17,9 @@
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
-  <project path="development" name="openeclair/development" remote="github" revision="eclair" />
+  <project path="development" name="openeclair/development" remote="github" revision="master" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
-  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="eclair" />
+  <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="master" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
@@ -29,12 +29,12 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
-  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" revision="eclair" />
+  <project path="hardware/msm7k" name="openeclair/android_hardware_msm7k" remote="github" revision="eclair" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="eclair" />
+  <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -44,7 +44,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
   <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" revision="eclair" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"/>
-  <project path="packages/providers/DownloadProvider" name="cyanogen/android_packages_providers_DownloadProvider" remote="github" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider"/>
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider"/>
@@ -90,7 +90,7 @@
   <project path="packages/services/EasService" name="platform/packages/services/EasService" />
   <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
-  <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="eclair" remote="github"/>
+  <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="master" remote="github"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="openeclair/packages_wallpapers_MagicSmoke" revision="eclair" remote="github" />
   <project path="packages/wallpapers/MusicVisualization" name="openeclair/packages_wallpapers_MusicVisualization" revision="eclair" remote="github" />
@@ -112,7 +112,7 @@
   <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
   <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
-  <project path="external/e2fsprogs" name="cyanogen/android_external_e2fsprogs" remote="github" revision="master" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/embunit" name="platform/external/embunit"/>
@@ -156,7 +156,6 @@
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
-  <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
@@ -177,7 +176,7 @@
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
+  <project path="vendor/htc/dream-open" name="openeclair/android_vendor_htc_dream-open" remote="github" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
@@ -190,8 +189,8 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="eclair" />
-  <project path="vendor/openremix" name="openeclair/vendor_openremix" remote="github" revision="eclair" />
+  <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="master" />
+  <project path="vendor/openremix" name="openeclair/vendor_openremix" remote="github" revision="master" />
 
   <project path="cts" name="platform/cts" />
 </manifest>
