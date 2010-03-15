@@ -75,7 +75,7 @@
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" revision="eclair"/>
-  <project path="packages/apps/Settings" name="ctso/android_packages_apps_Settings" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="openeclair/android_packages_apps_Settings" remote="github" revision="master" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
   <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" revision="eclair" />
