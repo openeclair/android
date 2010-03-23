@@ -39,7 +39,6 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="openeclair/system_core" remote="github" revision="master" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="sdk" name="platform/sdk" />
