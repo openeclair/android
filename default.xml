@@ -94,7 +94,7 @@
   <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
   <project path="packages/wallpapers/Basic" name="openeclair/packages_wallpapers_Basic" revision="master" remote="github"/>
-  <project path="packages/wallpapers/LivePicker" name="packages/wallpapers/MusicVisualization" remote="codea" revision="eclair_rum" />
+  <project path="packages/wallpapers/LivePicker" name="packages/wallpapers/LivePicker" remote="codea" revision="eclair_rum" />
   <project path="packages/wallpapers/MagicSmoke" name="openeclair/packages_wallpapers_MagicSmoke" revision="eclair" remote="github" />
   <project path="packages/wallpapers/MusicVisualization" name="openeclair/packages_wallpapers_MusicVisualization" revision="eclair" remote="github" />
 
