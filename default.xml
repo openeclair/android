@@ -7,7 +7,7 @@
 
   <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="openeclair/build" remote="github" revision="master">
+  <project path="build" name="cyanogen/android_build" remote="github" revision="eclair">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
