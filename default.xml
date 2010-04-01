@@ -197,7 +197,6 @@
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/openeclair" name="openeclair/vendor" remote="github" revision="master" />
-  <project path="vendor/openremix" name="openeclair/vendor_openremix" remote="github" revision="master" />
 
   <project path="cts" name="platform/cts" />
 </manifest>
