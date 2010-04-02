@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="kernel" name="wesgarner/wg-android-kernel" remote="github" revision="v4-beta" />
+  <project path="kernel" name="wesgarner/wg-android-kernel" remote="github" revision="v5-beta" />
 
   <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
 
