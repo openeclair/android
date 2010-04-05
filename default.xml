@@ -20,13 +20,13 @@
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
-  <project path="development" name="cyanogen/development" remote="github" revision="eclair" />
+  <project path="development" name="cyanogen/android_development" remote="github" revision="eclair" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
   <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="master" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/policies/base" name="cyanogen/frameworks_policies_base" remote="github" revision="eclair" />
+  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" revision="eclair" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
@@ -37,7 +37,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="openeclair/system_core" remote="github" revision="eclair" />
+  <project path="system/core" name="cyanogen/android_system_core" remote="github" revision="eclair" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
