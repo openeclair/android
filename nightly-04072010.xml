@@ -8,7 +8,7 @@
   <default remote="korg" revision="eclair"/>
   
   <project name="cyanogen/android-external-openvpn" path="external/openvpn" remote="github" revision="0e4dce455574400c6dfe98282f41bb7725d22498"/>
-  <project name="cyanogen/android_bionic" path="bionic" remote="github" revision="a9c41a8e0a62f70a37f7040740a9b1ef06a66612"/>
+  <project name="cyanogen/android_bionic" path="bionic" remote="github" revision="8ef3c766efdae681ac7f989fe4dcde868a2063ab"/>
   <project name="cyanogen/android_build" path="build" remote="github" revision="5ab4db4f7449b58714a9c25dce4499b759149191">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
