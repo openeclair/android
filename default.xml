@@ -13,7 +13,7 @@
 
   <project path="kernel" name="wesgarner/wg-android-kernel" remote="github" revision="v5-beta" />
 
-  <project name="cyanogen/android_bionic" path="bionic" remote="github" revision="a9c41a8e0a62f70a37f7040740a9b1ef06a66612"/>
+  <project path="bionic" name="platform/bionic" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
