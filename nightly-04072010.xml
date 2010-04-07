@@ -40,7 +40,7 @@
   <project name="cyanogen/android_system_extras" path="system/extras" remote="github" revision="97629741c09fa38e9c55661c1f951d5bb73d720d"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="fb16ead15a80af0c0e21b5cca53b851dfc23b528"/>
   <project name="fries/android-external-liblzo" path="external/lzo" remote="github" revision="ca8a92853203ace0563b9b2701323920d01aceff"/>
-  <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="6d32ac029c5789e4ba05ae98fff1830dc896437e"/>
+  <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="7fe4d7bbcbe1950839c963d4ba07f71a6db362b6"/>
   <project name="koush/android_external_yaffs2" path="external/yaffs2" remote="github" revision="d8bbc5410322494606818a4fa13542cdaf6bdb46"/>
   <project name="kruton/android_external_flac" path="external/flac" remote="github" revision="3c276f4d58833251300b772c184b13c8c6f6a82c"/>
   <project name="openeclair/SpareParts" path="development/apps/SpareParts" remote="github" revision="be5d5e43c90d7185e119a3460973c58a632ecf4a"/>
