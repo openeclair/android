@@ -8,6 +8,7 @@
   <default remote="korg" revision="eclair"/>
   
   <project name="cyanogen/android-external-openvpn" path="external/openvpn" remote="github" revision="0e4dce455574400c6dfe98282f41bb7725d22498"/>
+  <project name="cyanogen/android_bionic" path="bionic" remote="github" revision="a9c41a8e0a62f70a37f7040740a9b1ef06a66612"/>
   <project name="cyanogen/android_build" path="build" remote="github" revision="5ab4db4f7449b58714a9c25dce4499b759149191">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -54,7 +55,6 @@
   <project name="openeclair/packages_wallpapers_MagicSmoke" path="packages/wallpapers/MagicSmoke" remote="github" revision="5e1957929bb86128461335b0f3a53e666e1fd7df"/>
   <project name="openeclair/packages_wallpapers_MusicVisualization" path="packages/wallpapers/MusicVisualization" remote="github" revision="3b20eb522b8ea67e47ada6daf948c064ee9804f5"/>
   <project name="openeclair/vendor" path="vendor/openeclair" remote="github" revision="4db52e54ed47ffea2e3771a564db710c8b3924ad"/>
-  <project name="platform/bionic" path="bionic" revision="ee424e23c10c051ee4760177c85f6003ff20108c"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="2836cc573a12cbe12e7d2fce7468c1a83374e510"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="3131c1827e4f2485e7e9ede681adad920bf18b24"/>
   <project name="platform/cts" path="cts" revision="11bb3847c1a3bc94ef16daf8905f65efb4ce0e79"/>
