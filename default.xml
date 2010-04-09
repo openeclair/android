@@ -20,7 +20,7 @@
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
-  <project path="development" name="cyanogen/android_development" remote="github" revision="eclair" />
+  <project path="development" name="openeclair/development" remote="github" revision="eclair" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
   <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="master" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
