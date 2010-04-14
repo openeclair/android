@@ -189,6 +189,7 @@
   <project path="vendor/htc/dream-open" name="openeclair/android_vendor_htc_dream-open" remote="github" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
+  <project path="vendor/htc-open/dream_sapphire" name="ctso/android_vendor_htc-open_dream_sapphire" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
