@@ -19,7 +19,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
-  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
+  <project path="dalvik" name="openeclair/dalvik" remote="github" revision="master" />
   <project path="development" name="openeclair/development" remote="github" revision="eclair" />
   <project path="development/apps/SpareParts" name="openeclair/SpareParts" remote="github" revision="eclair" />
   <project path="frameworks/base" name="openeclair/frameworks_base" remote="github" revision="master" />
